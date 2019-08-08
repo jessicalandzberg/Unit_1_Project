@@ -1,0 +1,50 @@
+#fullPage {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.fixed-top {
+  border-bottom: 3px solid black;
+}
+
+#intro {
+  background: red;
+  height: 100vh;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#myJourney {
+  background: yellow;
+  height: 100vh;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#myProjects {
+  background: orange;
+  height: 100vh;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#myResume {
+  background: pink;
+  height: 100vh;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#letsConnect {
+  background: purple;
+  height: 100vh;
+  padding-left: 0px;
+  padding-right: 0px;
+  position: relative;
+}
+
+footer {
+  background: crimson;
+  position: absolute;
+  bottom: 0px;
+}
