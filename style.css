@@ -14,37 +14,125 @@
   padding-right: 0px;
 }
 
+    #introRow {
+      height: 100vh;
+      padding-left: 0px;
+      padding-right: 0px;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+
+    #introLS {
+      background-color: red;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      padding-top: 59px;
+    }
+
+      #introPic {
+
+      }
+
+    #introRS {
+      background-color: black;
+      padding-right: 0px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      padding-top: 59px;
+    }
+
 #myJourney {
   background: yellow;
   height: 100vh;
   padding-left: 0px;
   padding-right: 0px;
+  position: relative;
 }
+    #myJourneyRow1 {
+      height: 125px;
+      padding-left: 0px;
+      padding-right: 0px;
+      background-color: purple;
+      position: absolute;
+      Top: 0px;
+    }
 
 #myProjects {
   background: orange;
   height: 100vh;
   padding-left: 0px;
   padding-right: 0px;
+  position: relative;
 }
+    #myProjectsRow1 {
+      height: 125px;
+      padding-left: 0px;
+      padding-right: 0px;
+      background-color: purple;
+      position: absolute;
+      Top: 0px;
+    }
 
 #myResume {
   background: pink;
   height: 100vh;
   padding-left: 0px;
   padding-right: 0px;
+  position: relative
 }
 
+    #myResumeRow1 {
+      height: 125px;
+      padding-left: 0px;
+      padding-right: 0px;
+      background-color: purple;
+      position: absolute;
+      Top: 0px;
+    }
+
 #letsConnect {
-  background: purple;
+  /* background: orange; */
   height: 100vh;
   padding-left: 0px;
   padding-right: 0px;
   position: relative;
 }
 
-footer {
-  background: crimson;
-  position: absolute;
-  bottom: 0px;
-}
+    #letsConnectRow1 {
+      height: 125px;
+      padding-left: 0px;
+      padding-right: 0px;
+      background-color: purple;
+      position: absolute;
+      Top: 0px;
+      z-index: 2;
+    }
+
+    #letsConnectRow2 {
+      height: 100vh;
+      padding-left: 0px;
+      padding-right: 0px;
+      margin-left: 0px;
+      margin-right: 0px;
+      z-index: 1;
+    }
+
+        #letsConnectLS {
+          background-color: red;
+        }
+
+        #letsConnectRS {
+          background-color: black;
+          padding-right: 0px;
+        }
+
+    footer {
+      background: crimson;
+      position: absolute;
+      bottom: 0px;
+      height: 59px;
+    }
