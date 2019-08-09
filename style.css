@@ -4,17 +4,25 @@
   font-family: 'Adamina', serif;
 }
 
-    .fixed-top {
+/* ==========================================================================
+   NAVIGATION STYLES
+========================================================================== */
+.fixed-top {
       border-bottom: 3px solid black;
       background-color: white;
       padding-right: 25px;
       padding-left: 25px;
     }
 
-    .navbar-brand {
-      font-family: 'Satisfy', cursive;
-      font-size: 30px;
-    }
+          .navbar-brand {
+            font-family: 'Satisfy', cursive;
+            font-size: 30px;
+          }
+
+/* ==========================================================================
+  INTRO SECTION STYLES
+========================================================================== */
+
 
 #intro {
   height: 100vh;
@@ -25,35 +33,44 @@
     #introRow {
       /* background: red; */
       height: 100vh;
-      padding-left: 0px;
-      padding-right: 0px;
+      padding-left: 25px;
+      padding-right: 25px;
       margin-left: 0px;
       margin-right: 0px;
     }
 
-    #introLS {
-      /* background-color: red; */
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding-top: 59px;
-    }
+        #introLS {
+          /* background-color: red; */
+          padding-top: 59px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+        }
 
-      #LS {
-        /* border-radius: 50%; */
-        width: 70%
-      }
+            #LStext {
+              margin-bottom: 0px;
+            }
 
-    #introRS {
-      /* background-color: black; */
-      padding-right: 0px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: black;
-      padding-top: 59px;
-      text-align: center;
-    }
+        #introRS {
+          /* background-color: black; */
+          padding-right: 0px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: black;
+          padding-top: 59px;
+          text-align: center;
+        }
+
+            #RStext {
+              margin-bottom: 0px;
+            }
+
+/* ==========================================================================
+  MY JOURNEY SECTION STYLES
+========================================================================== */
+
 
 #myJourney {
   /* background: yellow; */
@@ -88,6 +105,8 @@
 
         .carouselPic {
           height: 100%;
+          width: 100%;
+          object-fit: cover;
           margin: 0 auto;
         }
       .carousel-caption {
@@ -95,9 +114,12 @@
         background-color: rgba(250, 250, 250, .5)
       }
 
+/* ==========================================================================
+  PROJECTS SECTION STYLES
+========================================================================== */
 
 #myProjects {
-  background: orange;
+  /* background: orange; */
   height: 100vh;
   padding-left: 0px;
   padding-right: 0px;
@@ -110,7 +132,50 @@
       background-color: purple;
       position: absolute;
       Top: 0px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      border-top: 3px solid black;
     }
+
+    #myProjectsRow2 {
+      height: 100vh;
+      background-color: purple;
+      padding-left: 0px;
+      padding-right: 0px;
+      margin-left: 0px;
+      margin-right: 0px;
+      z-index: 1;
+      padding-top: 125px;
+      display: flex;
+      align-items: center;
+    }
+              #projectsSection {
+                margin-right: 0px;
+                margin-left: 0px;
+                justify-content: center;
+              }
+
+                .colwrapper {
+                  padding-bottom: 15px;
+                }
+                .card {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    height: 100%;
+                    text-align: center;
+
+                }
+
+                #card-image {
+                  height:100px;
+                }
+
+
+/* ==========================================================================
+  LETS CONNECT SECTION STYLES
+========================================================================== */
 
 #letsConnect {
   /* background: orange; */
