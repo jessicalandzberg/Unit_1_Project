@@ -61,6 +61,8 @@
 
 - Link of your deployed project in your summary: https://jessicalandzberg.github.io/Unit_1_Project/
 
+http://ritzy-education.surge.sh/
+
 - Add screenshots of code snippets to highlight what you're most proud of, or most challenged by.
 
     - I am most proud of the render function for my cards : https://res.cloudinary.com/jeslan/image/upload/v1565567320/Project%201/Screen_Shot_2019-08-11_at_7.47.45_PM_rojzqh.png
