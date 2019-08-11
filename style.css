@@ -312,3 +312,30 @@ body {
         font-size: 12px;
         color: gray;
       }
+
+/* ==========================================================================
+  MEDIA QUERY
+========================================================================== */
+
+  @media screen and (max-width: 450px) {
+        #LStext, #RStext {
+          font-size: 20px;
+        }
+        .carousel {
+          height: auto;
+          width: 100%;
+        }
+
+        .contactForm {
+          margin-bottom: 5px;
+          border: 2px solid #CFB09F;
+          background-color: #E8C6B3;
+        }
+
+        .colwrapper {
+          padding-bottom: 5px;
+        }
+
+
+
+    }
