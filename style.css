@@ -26,6 +26,14 @@ body {
             font-size: 30px;
           }
 
+          #changeColor {
+            color: black;
+          }
+
+          nav .active {
+            background-color: #E8C6B3 !important;
+          }
+
 /* ==========================================================================
   INTRO SECTION STYLES
 ========================================================================== */
@@ -35,6 +43,7 @@ body {
   height: 100vh;
   padding-left: 0px;
   padding-right: 0px;
+  background: #E8C6B3;
 }
 
     #introRow {
@@ -80,7 +89,6 @@ body {
 
 
 #myJourney {
-  /* background: yellow; */
   height: 100vh;
   padding-left: 0px;
   padding-right: 0px;
@@ -96,7 +104,7 @@ body {
       display: flex;
       justify-content: center;
       align-items: flex-end;
-      border-top: 3px solid black;
+      /* border-top: 3px solid black; */
     }
     .carousel {
       height: 100vh;
@@ -154,7 +162,7 @@ body {
       display: flex;
       justify-content: center;
       align-items: flex-end;
-      border-top: 3px solid black;
+      border-top: 3px dotted #E8C6B3;
     }
 
     #myProjectsRow2 {
@@ -185,7 +193,7 @@ body {
                     height: 100%;
                     text-align: center;
                     border: 0px solid white;
-                    background-color: grey;
+                    background-color: #E8C6B3;
                     padding-top: 20px;
                     padding-bottom: 20px;
 
@@ -219,7 +227,7 @@ body {
       display: flex;
       justify-content: center;
       align-items: flex-end;
-      border-top: 3px solid black;
+      border-top: 3px dotted #E8C6B3;
     }
 
     #letsConnectRow2 {
@@ -229,7 +237,7 @@ body {
       margin-left: 0px;
       margin-right: 0px;
       z-index: 1;
-      padding-top: 120px;
+      padding-top: 150px;
       padding-bottom: 59px;
     }
 
@@ -257,7 +265,7 @@ body {
           display: flex;
           flex-direction: column;
           justify-content: center;
-          border-left: 3px solid black;
+          border-left: 1px solid #E8C6B3;
         }
             #RStitle {
               height: 30%;
@@ -281,7 +289,12 @@ body {
               }
                   .contactForm {
                     margin-bottom: 20px;
-                    border: 3px solid black;
+                    border: 2px solid #CFB09F;
+                    background-color: #E8C6B3;
+                  }
+
+                  ::placeholder {
+                    color: black;
                   }
 
     footer {

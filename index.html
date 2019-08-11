@@ -26,9 +26,9 @@
               </button>
               <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                  <a class="nav-item nav-link" href="#myJourney">My Journey</a>
-                  <a class="nav-item nav-link" href="#myProjects">Projects</a>
-                  <a class="nav-item nav-link" href="#letsConnect">Lets Connect</a>
+                  <a class="nav-item nav-link" id= "changeColor" href="#myJourney">My Journey</a>
+                  <a class="nav-item nav-link" id= "changeColor" href="#myProjects">Projects</a>
+                  <a class="nav-item nav-link" id= "changeColor" href="#letsConnect">Lets Connect</a>
                 </div>
               </div>
 
@@ -68,7 +68,7 @@
                             <div class="carousel-item active">
                               <img class="d-block carouselPic" src="https://res.cloudinary.com/jeslan/image/upload/v1565292955/Project%201/Washington_University_in_St_Louis_5686901_i0_ft3ugi.jpg" alt="First slide">
                               <div class="carousel-caption d-none d-md-block">
-                                    <h5>Test1</h5>
+                                    <p>Test1<p>
                               </div>
                             </div>
                             <div class="carousel-item">
@@ -149,15 +149,17 @@
 
                     <div id= "letsConnectLS" class="col-sm-12 col-lg-6">
                         <div id="LStitle"><h4 id= "letsConnectLSh3"> Feel free to reach out! </h4> </div>
-                        <div id="letsConnectLSp"> <p> email: jessica.landzberg@gmail.com </br> mobile: (201) 693-5069 </br> linkedin profile </p> </div>
+                        <div id="letsConnectLSp"> <p> Email: jessica.landzberg@gmail.com </br> Mobile: (201) 693-5069 </br> Linkedin profile </p> </div>
                     </div>
 
                     <div id= "letsConnectRS" class="col-sm-12 col-lg-6">
                       <div id= "RStitle"><h4 id="letsConnectRSh3"> ...or fill out this contact form </h4> </div>
-                      <div id= "letsConnectRSform"> <form action="" method="">
-                        <input id="name" class= "contactForm" type="text" placeholder="Name">
-                        <input id="email" class= "contactForm" type="text" placeholder="Email">
-                        <textarea id="message" class= "contactForm" rows="5" columns= "30" placeholder="Your message"> </textarea>
+                      <div id= "letsConnectRSform">
+                        <form action="https://formspree.io/jessica.landzberg@gmail.com" method="POST" />
+                          <input id="name" name="name" class= "contactForm" type="text" placeholder="Name">
+                          <input id="email" name="name" class= "contactForm" type="text" placeholder="Email">
+                          <textarea id="message" name="name" class= "contactForm" placeholder="Message" rows="5"></textarea>
+                          <input type="submit" name="name">
                       </form> </div>
                     </div>
                   </div>
