@@ -174,11 +174,12 @@ body {
       padding-top: 125px;
       display: flex;
       align-items: center;
+      justify-content: center;
     }
               #projectsSection {
                 margin-right: 0px;
                 margin-left: 0px;
-                justify-content: center;
+                width: 100%;
               }
 
                 .colwrapper {
@@ -189,6 +190,7 @@ body {
                     flex-direction: column;
                     justify-content: center;
                     height: 100%;
+                    width: 100%;
                     text-align: center;
                     border: 0px solid white;
                     background-color: #E8C6B3;
@@ -263,7 +265,7 @@ body {
           display: flex;
           flex-direction: column;
           justify-content: center;
-          border-left: 1px solid #E8C6B3;
+          ;
         }
             #RStitle {
               height: 30%;
