@@ -321,11 +321,8 @@ body {
           height: auto;
           width: 100%;
         }
-
         .contactForm {
           margin-bottom: 5px;
-          border: 2px solid #CFB09F;
-          background-color: #E8C6B3;
         }
 
         .colwrapper {

@@ -3,6 +3,7 @@ let originalURL = 'https://docs.google.com/spreadsheets/d/1_G4ra90EOmoebu9gExY0w
 let id =  '1_G4ra90EOmoebu9gExY0wd9hK9eeN8caip_1wc7E8AA'
 let source = `https://spreadsheets.google.com/feeds/list/${id}/od6/public/values?alt=json`
 
+// fetch call and run create cards function
 fetch(source)
   .then( res => res.json())
   .then( data => {
@@ -16,7 +17,7 @@ fetch(source)
      createCards(projects)
 })
 
-
+// create new card object because google doc objects have a lot of unnecessary info
 class Card {
   constructor(obj) {
     this.title = obj.title
@@ -24,6 +25,7 @@ class Card {
     this.link = obj.link
   }
 
+// function that assembles each card
 render() {
     const col = document.createElement('div')
     col.classList.add("colwrapper",'col-sm-12','col-lg-4','col-md-6');
@@ -37,7 +39,6 @@ render() {
 
     const cardTitle = document.createElement('div')
     cardTitle.classList.add('card-title');
-
 
     const cardImage = document.createElement('div')
     cardImage.classList.add('card-image');
@@ -58,6 +59,7 @@ render() {
   }
 }
 
+// function that creates cards by looping through each object in projects
 function createCards(projects){
   const projectDiv = document.querySelector('#projectsSection')
   projects.forEach( obj => {
